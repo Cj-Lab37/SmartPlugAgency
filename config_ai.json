@@ -1,0 +1,39 @@
+{
+  "agents": {
+    "agent1": {
+      "model": "ChatGPT",
+      "api_key": "${CHATGPT_API_KEY}",
+      "model_size": "small"
+    },
+    "agent2": {
+      "model": "Gemini",
+      "api_key": "${GEMINI_API_KEY}",
+      "model_size": "big"
+    },
+    "agent3": {
+      "model": "Grok",
+      "api_key": "${GROK_API_KEY}",
+      "model_size": "small"
+    }
+  },
+  "models": {
+    "ChatGPT": {
+      "types": {
+        "small": "4o-mini",
+        "big": "gpt-4o"
+      }
+    },
+    "Gemini": {
+      "types": {
+        "small": "gemini-small",
+        "big": "gemini-large"
+      }
+    },
+    "Grok": {
+      "types": {
+        "small": "grok-beta-small",
+        "big": "grok-beta"
+      }
+    }
+  }
+}

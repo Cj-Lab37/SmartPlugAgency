@@ -1,0 +1,5 @@
+# Exclude .env file
+.env
+
+# Exclude Python virtual environment directory
+smartPlugAgencyVenv/
